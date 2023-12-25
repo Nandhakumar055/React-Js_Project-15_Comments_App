@@ -1,0 +1,139 @@
+.comment-section-bg-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(221, 2, 148),
+    rgb(14, 14, 14)
+  );
+}
+.comment-heading {
+  font-size: 30px;
+  color: white;
+}
+
+.comment-section-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.inputs-element-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-text {
+  font-size: 18px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.name-input {
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  border: 2px solid rgb(202, 201, 201);
+  color: white;
+  width: 100%;
+  max-width: 450px;
+  outline: none;
+  background-color: transparent;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.error-msg {
+  color: rgb(255, 156, 156);
+  margin: 5px 0px;
+}
+
+.textArea-comment {
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 25px;
+  outline: none;
+  border: 2px solid rgb(202, 201, 201);
+  border-color: white;
+  width: 100%;
+  max-width: 450px;
+  background-color: transparent;
+  color: white;
+}
+
+.add-comment {
+  padding: 10px 15px;
+  background-color: #0284c7;
+  border-radius: 8px;
+  color: white;
+  border: solid 1px #0b69ff;
+  margin-top: 25px;
+}
+
+.side-Animate-image {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+.under-line {
+  color: rgb(206, 202, 202);
+}
+
+.comment-text {
+  color: white;
+  font-weight: 600;
+}
+
+.comment-count {
+  background-color: rgb(156, 145, 155);
+  padding: 7px;
+  margin-right: 5px;
+  border-radius: 3px;
+  color: rgb(241, 235, 235);
+}
+
+.empty-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+.empty-text {
+  color: rgb(194, 191, 191);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.comments-main-container {
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-section-bg-container {
+    padding: 25px 8%;
+  }
+  .comment-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .inputs-element-container {
+    width: 50%;
+    align-items: flex-start;
+  }
+  .image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
